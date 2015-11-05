@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-wdith, intial-scale=1">
+<meta name="author" content="Penuel Chow, Steven Cortes, Myo Kyaw, Raymond Ong, Ashish Patel">
+<!-- <link rel="icon" href="favicon.ica"> -->
+<title>BookDash</title>
+
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<link href="css/custom.css" rel="stylesheet">
+
+<link href="css/animate.min.css" rel="stylesheet">
+
+<!--smooth scrolling feature -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+
+</head>
+
+
+
+
+
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">BookDash</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+      </ul>
+   
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Sign Up</a></li>
+         <li><a href="#">Sign In</a></li>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+
+<!-- main jumbotron -->
+<div class="jumbotron">
+<div class="container" >
+<h1>BookDash</h1>
+<h2>A better way to buy textbooks</h2>
+</div>
+</div>
+
+
+<!-- row 2 -->
+
+
+<div class="container-fluid" >
+	<div class="col-md-8 col-md-offset-2">
+    <a href="#section1">
+		<div class="col-xs-3 catcolor">
+			<h2 class="animated fadeIn">Best Sellers</h2>
+			<p> content </p>
+		</div>
+    </a>
+
+		<a href="#section2">
+    <div class="col-xs-3 catcolor2">
+			<h2 class="animated fadeIn">Search by College</h2>
+			<p>content </p>
+		</div>
+    </a>
+	  
+    <a href="#section3">
+		<div class="col-xs-3 catcolor3">
+			<h2 class="animated fadeIn">Sell your book</h2>
+			<p>content </p>
+		</div>
+    </a>
+	 
+    <a href="#section4">
+		<div class="col-xs-3 catcolor4">
+			<h2 class="animated fadeIn">Ending soon!</h2>
+			<p>content </p>
+		</div>
+    </a>
+  </div>
+</div>
+
+
+    
+     <div class="jumbotron catcolor6 center" id="section1">
+     <br>
+     <h2><center>Best Sellers</center></h2>
+     <h3><center>Top selling books on the market right now.<center></h3>
+     </div>
+     </div>
+
+     <div class="jumbotron catcolor6 center" id="section2">
+     <br>
+     <h2><center>Search by college</center></h2>
+     <h3><center>Narrow your search by selecting a college.<center></h3>
+     </div>
+     </div>
+
+     <div class="jumbotron catcolor6 center" id="section3">
+     <br>
+     <h2><center>Need to sell your book?</center></h2>
+     <h3><center>Make a posting here.<center></h3>
+     </div>
+     </div>
+
+     <div class="jumbotron catcolor6 center" id="section4">
+     <br>
+     <h2><center>Ending soon deals just for you</center></h2>
+     <h3><center>Browse below to get the best deal.<center></h3>
+     </div>
+     </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+<nav class="navbar navbar-default navbar-fixed-bottom somethingbg">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+      </ul>
+   
+      <ul class="nav navbar-nav navbar-right">
+
+
+<p>Copyright &copy; 2015, All Rights Reserved</p>
+        
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+</body>
+</html>
